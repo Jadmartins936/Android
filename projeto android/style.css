@@ -12,12 +12,14 @@ body{
 h1{
     font-family: 'android', Arial, sans-serif;
     color: #137547;
+    margin: 20px;
    
 }
 h2{
     font-family: 'android', Arial, sans-serif;
     color: #137547;
     background-color: #ecfbef;
+    margin: 20px;
 
 }
 header{
@@ -46,6 +48,9 @@ a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 10px;
 }
+a:hover{
+    color: #80ed99;
+}
 p#introducao{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -66,6 +71,8 @@ p#introducao{
 p{
     text-align:justify;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    
 }
 .video{
     background-color: #137547;
@@ -79,18 +86,43 @@ img{
     margin: auto;
     justify-content: center;
     display: flex;
+    width: 100%;
 }
 .doce{
     background-color: #e4ffda;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0px 30px 10px 30px;
     font-size: 1em;
-    width: 40%;
-    border-radius: 10px;
+    width: 75%;
+    border-radius: 20px;
+    margin: auto;
+    padding-bottom: 20px;
 }
 #extras{
 
     background-color: #5bba6f;
-    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    padding: 2%;
+    
 
+}
+.ajuste{
+    width: 30%;
+}
+ul{
+    display: inline-block;
+    padding: 0% 0% 0% 10%;
+    list-style:none;
+}
+li::before{
+    content: '✔';
+}
+footer{
+    background-color: #137547;
+    display: flex;
+    justify-content: center;
+    height: 1%;
+    margin-top: 2%;
+}
+footer > p{
+    display: block;
 }
